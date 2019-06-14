@@ -1,6 +1,6 @@
 # HTTP Replay
 
-HTTP Replay is a command-line interfact (CLI) web application penetration testing tool.
+HTTP Replay is a command-line interface (CLI) web application penetration testing tool.
 
 ## Functions
 
@@ -9,7 +9,7 @@ Take a request and replay it once. Display the response headers and body.
 
 TODO:
 
-- implement custom headers (plain-text file?)
+- implement custom headers
 - allow more than one replay request
 
 
