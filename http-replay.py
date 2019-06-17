@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-
+import sys
 import shutil
 import tempfile
 import urllib.request
@@ -10,8 +10,9 @@ from urllib.error import URLError, HTTPError
 Example usage:
 """
 
-hphost = "http://127.0.0.1/cors-demo"
-hpport = 80
+#hphost = "https://www.bing.com"
+hphost = sys.argv[1]
+#hpport = 80
 hpurlpath = "/"
 hpfilepath = ""
 hpreq = hphost + hpurlpath + hpfilepath
